@@ -1,0 +1,294 @@
+@import
+    url("https://use.typekit.net/akt2mhc.css")
+    url("https://use.typekit.net/akt2mhc.css")
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  padding; 0;
+  font-family: "proxima-soft", sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 15px 10px;
+}
+
+.header a {
+  float: left;
+  color: #3c3c3b;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: "Agenda", sans-serif;
+}
+ 
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color:#b5c6cb;
+}
+
+.header a.hover {
+  background-color: #fff;
+  color: #b5c6cb;
+}
+
+.header a.active {
+  background-color: #fff;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+ }
+
+  h1 {
+    font-family: "Proxima-Soft", sans-serif;
+    text-align:left;
+    padding-left: 200px;
+    font-size: 40px;
+    padding-top: 3px;
+    line-height: 45px;
+    }
+p {
+    font-family: "Proxima-Soft", sans-serif;
+    font-weight: 200;
+    text-align: left;
+    font-size: 15px;
+    color: #3c3c3b;
+    line-height: 18.5px;
+    padding-left: 14.2%;
+    padding-right: 50%;
+   }
+
+.homepagefoto {
+    position:relative;
+    bottom: 190px;
+}
+
+.homepageriver {
+    position:relative;
+    bottom: 190px;
+}
+
+div.river {
+    position: relative;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 11%;
+  right: 12%;
+  text-align: right;
+  padding-left: 50%;
+  line-height: 18.5px;
+}
+
+h2 {
+    font-family: "Proxima-Soft", sans-serif;
+    text-align:right;
+    padding-left: 50%;
+    padding-right: 10px;
+    font-size: 30px;
+    padding-top: 1px;
+}
+p2 {
+    font-family: "Proxima-Soft", sans-serif;
+    font-weight: 200;
+    color: #3c3c3b; 
+}
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 1480px) {
+    div.river {bottom: 480px;
+    }
+    
+}
+
+div.gifkaart {
+    position: relative;
+    bottom: 977px;
+    left: 50px;
+}
+
+div.middle {
+    position: absolute;
+    top: 179%;
+    width: 100%;
+}
+
+div.counting-sec {
+    padding: 40px;
+    width: 100%;
+    background: #fff
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+div.col {
+    flex: 1;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 23px;
+    color: #3c3c3b;   
+}
+
+.num{
+    font-size: 49px;
+    margin: 5px 0;
+}
+
+.klikvoortijdlijn {
+    margin: auto;
+    position: relative;
+    bottom: 600px;
+    display: flex;
+    text-align: center;
+    max-width: 1300px
+}
+
+.overmij {
+    position: relative;
+    display: flex;
+    bottom: 8px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align:center;
+  text-decoration:none;
+  margin: 5px 2px;
+}
+
+.fa-linkedin {
+  background: #fff;
+  position: relative;
+  color: blue;
+  bottom: -140px;
+  left: 990px;
+}
+
+.contact {
+    position: relative;
+    bottom: -145px;
+    left: 320px;
+    text-align: center;
+    line-height: 27px;
+}
+
+.infooverdeltas {
+    position:relative;
+    display: flex;
+    bottom: 700px;
+}
+
+.nijldeltainfo{
+    position: relative;
+    left: 100px;
+}
+
+.mississippideltainfo{
+    position: relative;
+    left: 590px;
+}
+
+.tekstnijldelta{
+    position: relative;
+    
+}
+
+.tekstdeltas {
+    position: relative;
+}
+
+.instagram {
+    position: relative;
+    bottom: 480px;
+    left: 840px;
+}
+
+@media screen and (min-width: 600px) {
+    .mobile-container {
+  max-width: 1440px;
+  margin: auto;
+  background-color: #fff;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #000;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.actives {
+  background-color: #b5c6cb;
+  color: white;
+    }
+}
+
+
+#leaflet { 
+    height: 500px;
+    width: 600px;
+}
